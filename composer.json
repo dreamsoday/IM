@@ -1,0 +1,29 @@
+{
+    "name": "lgy/console",
+    "description": "hx",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lgy",
+            "email": "18612192370@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+    	"psr-4": {
+        	"Lgy\\IM\\": "src/"
+    	}
+    },
+    "extra": {
+    	"laravel": {
+        	"providers": [
+            		"Lgy\\IM\\IMServiceProvider"
+        	],
+        	"aliases": {
+            		"IM": "Lgy\\IM\\IMFacade"
+        	}
+    	}
+    }
+}
