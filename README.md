@@ -1,4 +1,4 @@
-# laravel 还信使用插件
+# laravel 环信使用插件
 本插件对于php版本未设置要求
 本地测试环境php7.1，laravel5.5
 
